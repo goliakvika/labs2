@@ -1,0 +1,32 @@
+# Приклад 1
+dependencies1 = [
+    "visa foreignpassport",
+    "visa hotel",
+    "visa bankstatement",
+    "bankstatement nationalpassport",
+    "hotel creditcard",
+    "creditcard nationalpassport",
+    "nationalpassport birthcertificate",
+    "foreignpassport nationalpassport",
+    "foreignpassport militarycertificate",
+    "militarycertificate nationalpassport"
+]
+
+
+)
+
+# Приклад 2
+dependencies2 = [
+    "visa foreignpassport"
+]
+
+
+
+
+ birthcertificate
+               |
+        nationalpassport
+        /        |       \
+hotel creditcard foreignpassport militarycertificate
+        \         |           /
+         bankstatement    visa
